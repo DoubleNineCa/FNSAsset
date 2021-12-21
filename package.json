@@ -1,0 +1,19 @@
+{
+  "name": "fnsasset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "generate": "pkg -t node14-win-x64 ./src/index.js -o C:\\FNSAsset\\FNSAsset.exe"
+  },
+  "author": "FNS, INC.",
+  "license": "ISC",
+  "dependencies": {
+    "auto-git-update": "^2.0.2",
+    "dotenv": "^10.0.0",
+    "pg": "^8.7.1",
+    "pkg": "^5.5.1"
+  },
+  "devDependencies": {}
+}
